@@ -14,8 +14,8 @@ function NavScrollExample() {
         <Navbar.Brand href="#">
           <img
             src="../../../Logo.png"
-            width="30"
-            height="30"
+            width="50"
+            height="50"
             className="d-inline-block align-top"
             alt="Logo"
           />
@@ -43,13 +43,13 @@ function NavScrollExample() {
               style={{ maxHeight: "100px" }}
               navbarScroll
             >
-              <Nav.Link href="#action1" className="me-6 link-item">
+              <Nav.Link href="/galeria" className="me-6 link-item">
                 Galería
               </Nav.Link>
-              <Nav.Link href="#action2" className="me-6 link-item">
+              <Nav.Link href="#/contacto" className="me-6 link-item">
                 Contacto
               </Nav.Link>
-              <Nav.Link href="#action3" className="link-item">
+              <Nav.Link href="#/venta" className="link-item">
                 Venta
               </Nav.Link>
             </Nav>
@@ -71,7 +71,7 @@ function NavScrollExample() {
           <Form className="d-flex">
             <Form.Control
               type="search"
-              placeholder="Search"
+              placeholder="Haz una búsqueda"
               className="me-2"
               aria-label="Search"
             />
@@ -79,9 +79,8 @@ function NavScrollExample() {
               variant="outline-success"
               className="custom-search-button custom-search-button-header"
             >
-              Search
-            </Button>{" "}
-            {/* Agrega la clase custom-search-button-header */}
+              Buscar
+            </Button>
           </Form>
         </Navbar.Collapse>
       </Container>

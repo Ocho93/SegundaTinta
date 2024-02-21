@@ -12,9 +12,14 @@
 
 .custom-search-button.custom-search-button-header:hover {
   background-color: #406e8e; /* Cambia el color de fondo al pasar el ratón */
+  text-decoration: underline;
+}
+.link-item {
+  margin-right: 100px; /* Ajusta este valor según la separación deseada */
 }
 
 .link-item:hover {
   background-color: #406e8e; /* Cambia el color del texto al pasar el ratón */
-  /* text-decoration: underline; Subraya el texto al pasar el ratón */
+  width: 200%; 
+  text-decoration: underline;
 }
