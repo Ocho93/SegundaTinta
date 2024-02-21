@@ -1,0 +1,20 @@
+.custom-navbar {
+  background-color: #489669;
+}
+
+.custom-search-button.custom-search-button-header {
+  background-color: #2c2b2b; /* Color de fondo del botón del buscador */
+  color: white; /* Color del texto del botón del buscador */
+  border: none; /* Quita el borde del botón */
+  cursor: pointer; /* Cambia el cursor al pasar por encima del botón */
+  border-radius: 5px; /* Añade bordes redondeados al botón */
+}
+
+.custom-search-button.custom-search-button-header:hover {
+  background-color: #406e8e; /* Cambia el color de fondo al pasar el ratón */
+}
+
+.link-item:hover {
+  background-color: #406e8e; /* Cambia el color del texto al pasar el ratón */
+  /* text-decoration: underline; Subraya el texto al pasar el ratón */
+}
